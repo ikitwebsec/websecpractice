@@ -80,7 +80,7 @@ docker pull ikitwebsec/websecpractice:0.7-SNAPSHOT
 
 Введите команду:
 ``` script
-docker pull ikitwebsec/websecpractice:0.7-SNAPSHOT
+docker run -dit -p 8080:8080 -p 1521:1521 -p 81:81 docke2g/secweb 
 ```
 
 Или запустите <code>run.bat</code>.
