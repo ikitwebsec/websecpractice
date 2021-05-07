@@ -11,8 +11,44 @@
 
 #### Работа с VM 
 
-Скачайте виртуальную машину по адресу: https://noaddress.yet
+##### Скачайте VMware
+
+https://www.vmware.com/products/workstation-player.html
+
+##### Скачайте виртуальную машину
+
+https://drive.google.com/drive/folders/1PozDhOAxXuxABhQbbbCyC6BctBsXo2ZO
 (500mb)
+
+Для добавления VM запустите файл WebSecVM.ovf
+
+##### Запустите VM
+
+Требуется зайти в систему:
+``` script
+root
+Пароль: websecikit_091
+```
+
+##### Узнайте адрес виртуальной машины
+```
+ifconfig
+```
+
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/images/vm1.png)
+
+
+##### Запустите сервис
+```
+service labboot
+```
+
+##### Вход на сайт
+
+Для входа на сайт нужно вводить в адресную строку:
+```
+<Адрес>:8080
+```
 
 ---
 #### Работа с Docker
@@ -55,18 +91,18 @@ docker pull ikitwebsec/websecpractice:0.7-SNAPSHOT
 
 Скачанные репозитории можно отслеживать в разделе Images
 
-![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/docker1.png)
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/images/docker1.png)
 
 В результате запуска контейнера, его можно увидеть в соответствующем разделе программы Docker. 
 
-![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/docker2.png)
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/images/docker2.png)
 
 ##### Docker может потреблять ресурсы даже без запущенных контейнеров, поэтому выключайте его по окончании работы.
 
 ## Работа с задачами
 
-При полной настройке практикума, появляется доступ к localhost:8080.
+При полной настройке практикума, появляется доступ к веб-сайту.
 
-Сайт можно открыть в браузере на основной системе. 
+Его можно открыть в браузере на основной системе. 
 
-![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/task1.png)
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/images/task1.png)
