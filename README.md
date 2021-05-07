@@ -18,7 +18,7 @@ https://www.vmware.com/products/workstation-player.html
 ##### Скачайте виртуальную машину
 
 https://drive.google.com/drive/folders/1PozDhOAxXuxABhQbbbCyC6BctBsXo2ZO
-(500mb)
+(725mb)
 
 Для добавления VM запустите файл WebSecVM.ovf
 
