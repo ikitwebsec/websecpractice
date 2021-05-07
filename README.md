@@ -6,7 +6,9 @@
 
 Это можно сделать двумя способами: Виртуальная машина/Контейнер Docker. 
 
----
+
+## Установка
+
 #### Работа с VM 
 
 Скачайте виртуальную машину по адресу: https://noaddress.yet
@@ -47,13 +49,24 @@ docker pull ikitwebsec/websecpractice:0.7-SNAPSHOT
 
 Или запустите <code>run.bat</code>.
 
+После завершения работы контейнер можно закрыть через Docker.
+
 ##### Использование Docker
 
 Скачанные репозитории можно отслеживать в разделе Images
-![Изображение](https://petcube.com/blog/content/images/2017/08/kitten-supplies-cover.jpg)
-![Изображение](https://github.com/ikitwebsec/websecpractice/blob/main/docker1.png)
+
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/docker1.png)
 
 В результате запуска контейнера, его можно увидеть в соответствующем разделе программы Docker. 
-![Изображение](https://github.com/ikitwebsec/websecpractice/blob/main/docker2.png)
+
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/docker2.png)
 
 ##### Docker может потреблять ресурсы даже без запущенных контейнеров, поэтому выключайте его по окончании работы.
+
+## Работа с задачами
+
+При полной настройке практикума, появляется доступ к localhost:8080.
+
+Сайт можно открыть в браузере на основной системе. 
+
+![Изображение](https://github.com/ikitwebsec/websecpractice/blob/master/task1.png)
